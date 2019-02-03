@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView"
+    android:background="@drawable/fondo">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Imagen Original"
+        android:id="@+id/textView24"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#385623" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Original"
+        android:src="@drawable/logo"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:adjustViewBounds="false"
+        android:background="#385623"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Escala de Grises"
+        android:id="@+id/textView17"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textColor="#385623" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Grises"
+        android:src="@drawable/logo"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:adjustViewBounds="false"
+        android:background="#385623"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Suavisado Imagen"
+        android:id="@+id/textView20"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textColor="#385623" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Suavisado"
+        android:src="@drawable/logo"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:adjustViewBounds="false"
+        android:background="#385623"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Binarizacion"
+        android:id="@+id/textView21"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textColor="#385623" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Binarizado"
+        android:src="@drawable/logo"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:adjustViewBounds="false"
+        android:background="#385623"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Detectar Bordes"
+        android:id="@+id/textView22"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textColor="#385623" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Canny"
+        android:src="@drawable/logo"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:adjustViewBounds="false"
+        android:background="#385623"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Dibujar Contornos"
+        android:id="@+id/textView23"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textColor="#385623" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Findcontour"
+        android:src="@drawable/logo"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:adjustViewBounds="false"
+        android:padding="5dp"
+        android:background="#385623" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="Momentos HU"
+    android:id="@+id/textView25"
+    android:layout_weight="1"
+    android:textStyle="bold"
+    android:layout_gravity="center_horizontal"
+    android:textSize="20dp"
+    android:textColor="#385623" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/textView31"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:textColor="#385623" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/textView32"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:textColor="#385623" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/textView33"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:textColor="#385623" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/textView34"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:textColor="#385623" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/textView35"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:textColor="#385623" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/textView36"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:textColor="#385623" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/textView37"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:textColor="#385623" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Predicción"
+        android:id="@+id/tVPrediTitulo"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textColor="#385623" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/tvPrediccion"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:textColor="#385623" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/btnIdentifica"
+        android:background="@drawable/identifica"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="25dp"
+        android:padding="25dp"
+        android:onClick="onClick"
+        android:layout_marginBottom="50dp"
+        android:layout_weight="1" />
+
+
+</LinearLayout>
+
+</ScrollView>

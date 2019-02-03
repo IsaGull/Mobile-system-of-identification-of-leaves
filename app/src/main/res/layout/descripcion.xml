@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView"
+    android:background="@drawable/fondo">
+
+
+       <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+           android:padding="5dp"
+           android:paddingEnd="0dp">
+
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="titulo"
+        android:id="@+id/tvTitulo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+            android:textColor="#385623"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:layout_weight="1" />
+
+         <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivImagen"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo"
+             android:background="#385623"
+             android:padding="5dp"
+             android:layout_weight="1" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nombre científico:"
+        android:id="@+id/textview"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+            android:textColor="#385623"
+            android:textStyle="bold"
+            android:layout_weight="1" />
+
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="nombre cientifico"
+        android:id="@+id/tvCientifico"
+        android:layout_marginTop="5dp"
+             android:layout_marginRight="20dp"
+             android:textColor="#385623"
+             android:layout_marginLeft="20dp"
+             android:layout_weight="1" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Famila:"
+        android:id="@+id/textView6"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+            android:textColor="#385623"
+            android:textStyle="bold"
+            android:layout_weight="1" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="nombre cientifico"
+        android:id="@+id/tvFamilia"
+        android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#385623"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1" />
+
+           <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Usos:"
+        android:id="@+id/textView10"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+               android:textColor="#385623"
+               android:textStyle="bold"
+               android:layout_weight="1" />
+
+           <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+               android:textAppearance="?android:attr/textAppearanceMedium"
+               android:text="Small Text"
+           android:id="@+id/tvUsos"
+               android:layout_marginRight="20dp"
+               android:layout_marginTop="5dp"
+               android:textColor="#385623"
+               android:layout_marginLeft="20dp"
+               android:layout_weight="1" />
+
+           <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Clima:"
+        android:id="@+id/textView8"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+               android:textColor="#385623"
+               android:textStyle="bold"
+               android:layout_weight="1" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="nombre cientifico"
+        android:id="@+id/tvClima"
+        android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#385623"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1" />
+
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tipo de nervadura:"
+        android:id="@+id/textView12"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+             android:textColor="#385623"
+             android:textStyle="bold"
+             android:layout_weight="1" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="nombre cientifico"
+        android:id="@+id/tvNervadura"
+        android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#385623"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Forma:"
+        android:id="@+id/textView14"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+            android:textColor="#385623"
+            android:textStyle="bold"
+            android:layout_weight="1" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="nombre cientifico"
+        android:id="@+id/tvForma"
+        android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#385623"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textAppearance="?android:attr/textAppearanceLarge"
+               android:text="Borde:"
+               android:id="@+id/textView16"
+               android:layout_marginTop="20dp"
+               android:layout_marginLeft="20dp"
+               android:textColor="#385623"
+               android:textStyle="bold"
+               android:layout_weight="1" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textAppearance="?android:attr/textAppearanceMedium"
+               android:text="el borde"
+               android:layout_marginTop="5dp"
+               android:layout_marginRight="20dp"
+               android:id="@+id/tvBorde"
+               android:textColor="#385623"
+               android:layout_marginLeft="20dp"
+               android:layout_weight="1" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textAppearance="?android:attr/textAppearanceLarge"
+               android:text="Descripcion General:"
+               android:id="@+id/textView18"
+               android:layout_marginTop="20dp"
+               android:layout_marginLeft="20dp"
+               android:textColor="#385623"
+               android:textStyle="bold"
+               android:layout_weight="1" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textAppearance="?android:attr/textAppearanceMedium"
+               android:text="La descripcion general"
+               android:id="@+id/tvDescripcionGeneral"
+               android:layout_marginBottom="15dp"
+               android:layout_marginRight="20dp"
+               android:layout_marginTop="5dp"
+               android:textColor="#385623"
+               android:layout_marginLeft="20dp"
+               android:layout_weight="1" />
+
+           <Button
+               android:layout_width="126dp"
+               android:layout_height="70dp"
+               android:text=""
+               android:id="@+id/btnVolver"
+               android:background="@drawable/vvolver"
+               android:layout_gravity="center_horizontal"
+               android:layout_marginTop="30dp"
+               android:textSize="25dp"
+               android:onClick="onClick"
+               android:padding="0dp"
+               android:layout_marginBottom="10dp" />
+
+       </LinearLayout>
+
+    </ScrollView>
